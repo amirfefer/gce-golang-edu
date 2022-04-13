@@ -1,0 +1,50 @@
+
+#  GET http://127.0.0.1:5000/api/v1/computes
+
+
+# POST http://127.0.0.1:5000/api/v1/user/sign/up HTTP/1.1
+# content-type: application/json
+
+# {
+#     "email": "",
+#     "password": "changeme",
+#     "user_role": "admin"
+# }
+
+
+# POST http://127.0.0.1:5000/api/v1/compute
+# content-type: application/json
+
+# {
+#     "name": "",
+#     "zone": "",
+#     "path": "",
+#     "projectID": ""
+# }
+
+
+# GET http://127.0.0.1:5000/api/v1/compute/971654/list
+
+
+# POST http://127.0.0.1:5000/api/v1/instance
+# content-type: application/json
+
+# {
+#     "id":,
+#     "compute_id":,
+#     "name": "",
+#     "zone": "",
+#     "status": ""
+# }
+
+# GET http://127.0.0.1:5000/api/v1/zones/project/silver-origin-344413
+
+
+# POST http://127.0.0.1:5000/api/v1/compute/971654/instance/amir-host
+# content-type: application/json
+
+# {
+#     "operation": 1
+# }
+// 2 = stopped; 1 = start 
+

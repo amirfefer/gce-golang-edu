@@ -1,0 +1,14 @@
+# macOS
+**/.DS_Store
+
+# Dev build
+build/
+tmp/
+
+client_api/test.http
+
+# Test
+*.out
+
+# Environment variables
+.env
