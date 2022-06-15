@@ -1,6 +1,8 @@
 # Google cloud compute with golang
 
-This project was created for self education purpose
+**_This project was created for self education purpose_**
+This project communicates with google cloud API, and enables creating multiple `computes` objects, each one reflects a specifc zone in GCE.
+You can view instances list, turn off or on your instances.
 
 ## ⚡️ How to run
 
